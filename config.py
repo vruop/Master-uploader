@@ -1,7 +1,7 @@
 import os
 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7876428496:AAEo_yM2FrB71qN_sdL8ASTDiFO5N9-YOMQ")  # Ensure correct key name
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8012231272:AAFITViiSvq-2hXqbCaS4VBwHahNsim-woE")  # Ensure correct key name
     API_ID = int(os.environ.get("API_ID", "12475131"))  # Added key name and default value
     API_HASH = os.environ.get("API_HASH", "719171e38be5a1f500613837b79c536f")  # Added key name for consistency
 
